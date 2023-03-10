@@ -48,7 +48,7 @@ The efficient segmentation of foreground text information from the background in
   [(Download Link)](https://www.dropbox.com/s/54ye0mtdcvqas4o/Testset.zip?dl=0)
 
 ## Usage
-* Patch per datasets
+* Patch per datasets (Part of Stage1)
 
     Example: 512×512
 <p align="center">
@@ -65,7 +65,7 @@ The efficient segmentation of foreground text information from the background in
     python3 image_to_512.py
 ```
 
-* Discrete Wavelet Transform
+* Discrete Wavelet Transform (Part of Stage1)
 
     Example: Blue, Green, Red
 <p align="center">
