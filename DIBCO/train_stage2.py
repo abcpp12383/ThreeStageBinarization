@@ -317,8 +317,8 @@ if __name__ == "__main__":
     # data set
     parser.add_argument('--image_train_dir', type=str, default='../ThreeStageBinarization/DIBCO_resize_256/Trainset/image/', help='patched image train dir')
     parser.add_argument('--mask_train_dir', type=str, default='../ThreeStageBinarization/DIBCO_resize_256/Trainset/mask/', help='patched mask train dir')
-    parser.add_argument('--image_test_dir', type=str, default='../ThreeStageBinarization/Testset/image/', help='original image test dir')
-    parser.add_argument('--mask_test_dir', type=str, default='../ThreeStageBinarization/Testset/mask/', help='original mask test dir')
+    parser.add_argument('--image_test_dir', type=str, default='../ThreeStageBinarization/DIBCO/Testset/image/', help='original image test dir')
+    parser.add_argument('--mask_test_dir', type=str, default='../ThreeStageBinarization/DIBCO/Testset/mask/', help='original mask test dir')
     
     opt = parser.parse_args()
     unetplusplus_train(opt.epochs, opt.gpu, opt.base_model_name, opt.encoder_weights, opt.generator_lr, opt.discriminator_lr, opt.lambda_bce, opt.threshold,
