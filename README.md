@@ -83,7 +83,7 @@ The efficient segmentation of foreground text information from the background in
   ```
       python3 train_stage2.py
   ```
-  * Before train Stage3
+  * Before train left part of Stage3
   ```
       python3 predict_for_stage3.py
   ```
