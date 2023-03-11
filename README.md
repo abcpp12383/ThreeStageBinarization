@@ -81,9 +81,9 @@ The efficient segmentation of foreground text information from the background in
 * Train the model
 ```
     python3 train_stage2.py
-    python3 predict_for_stage3.py
     python3 train_stage3.py
     python3 train_stage3_resize.py
+    python3 predict_for_stage3.py
 ```
 
 * Evaluation the model
