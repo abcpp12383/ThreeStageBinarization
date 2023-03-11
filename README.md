@@ -83,17 +83,17 @@ The efficient segmentation of foreground text information from the background in
   ```
       python3 train_stage2.py
   ```
-  * left part of Stage3 (need train stage2 first)
+  * Before train Stage3
+  ```
+      python3 predict_for_stage3.py
+  ```
+  * left part of Stage3 (need train predict_for_stage3.py first)
   ```
       python3 train_stage3.py
   ```
   * right part of Stage3 (independent training)
   ```
       python3 train_stage3_resize.py
-  ```
-  * Predict
-  ```
-      python3 predict_for_stage3.py
   ```
 
 * Evaluation the model
