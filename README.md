@@ -79,21 +79,22 @@ The efficient segmentation of foreground text information from the background in
     python3 image_dwt_256.py
 ```
 * Train the model
-** Stage2
-```
-    python3 train_stage2.py
-```
-** left part of Stage3 (need train stage2 first)
-```
-    python3 train_stage3.py
-```
-** right part of Stage3 (independent training)
-    python3 train_stage3_resize.py
-```
-** Predict
-```
-    python3 predict_for_stage3.py
-```
+  * Stage2
+  ```
+      python3 train_stage2.py
+  ```
+  * left part of Stage3 (need train stage2 first)
+  ```
+      python3 train_stage3.py
+  ```
+  * right part of Stage3 (independent training)
+  ```
+      python3 train_stage3_resize.py
+  ```
+  * Predict
+  ```
+      python3 predict_for_stage3.py
+  ```
 
 * Evaluation the model
 ```
