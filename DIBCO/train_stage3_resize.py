@@ -275,8 +275,8 @@ if __name__ == "__main__":
     parser.add_argument('--batch_size', type=int, default=4, help='batch size')
     
     # data set
-    parser.add_argument('--image_train_dir', type=str, default='../ThreeStageBinarization/data/denoise/dibco_resize_6_4/train/image', help='512 resized image train dir')
-    parser.add_argument('--mask_train_dir', type=str, default='../ThreeStageBinarization/data/denoise/dibco_resize_6_4/train/mask', help='512 resized mask train dir')
+    parser.add_argument('--image_train_dir', type=str, default='../ThreeStageBinarization/DIBCO_resize_512/Trainset/image', help='512 resized image train dir')
+    parser.add_argument('--mask_train_dir', type=str, default='../ThreeStageBinarization/DIBCO_resize_512/Trainset/mask', help='512 resized mask train dir')
     parser.add_argument('--image_test_dir', type=str, default='../ThreeStageBinarization/DIBCO/Testset/image/', help='original image test dir')
     parser.add_argument('--mask_test_dir', type=str, default='../ThreeStageBinarization/DIBCO/Testset/mask/', help='original mask test dir')
 
