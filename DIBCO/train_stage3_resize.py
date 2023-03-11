@@ -76,7 +76,7 @@ def unetplusplus_train(epochs, gpu, base_model_name, encoder_weights, generator_
     train_loader = DataLoader(train_data_set, batch_size=batch_size, num_workers=4, shuffle=True)
     print('train len: %d' % (len(train_loader)))
 
-    weight_path = './stage3_resize_dibco_' + base_model_name + '_' + str(int(lambda_bce)) + '_' + str(generator_lr)
+    weight_path = './UnetPlusPlus/stage3_resize_dibco_' + base_model_name + '_' + str(int(lambda_bce)) + '_' + str(generator_lr)
     image_save_path = weight_path + '/images'
     os.makedirs(weight_path, exist_ok=True)
     os.makedirs(image_save_path, exist_ok=True)
