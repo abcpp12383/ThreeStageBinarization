@@ -10,8 +10,8 @@ from Base.tool_clean import get_image_patch_deep, get_image_patch, check_is_imag
 # make stage2 prediction image patch, and test image for stage3 training.
 parser = argparse.ArgumentParser()
 parser.add_argument("--gpu", type=str, default='0', help="GPU number")
-parser.add_argument('--image_train_dir', type=str, default='../ThreeStageBinarization/DIBCO/Trainset/image/', help='original image train dir')
-parser.add_argument('--mask_train_dir', type=str, default='../ThreeStageBinarization/DIBCO/Trainset/mask/', help='original mask train dir')
+parser.add_argument('--image_train_dir', type=str, default='../ThreeStageBinarization/DIBCO_resize_256/Trainset/image/', help='patched image train dir')
+parser.add_argument('--mask_train_dir', type=str, default='../ThreeStageBinarization/DIBCO_resize_256/Trainset/mask/', help='patched mask train dir')
 parser.add_argument('--image_test_dir', type=str, default='../ThreeStageBinarization/DIBCO/Testset/image/', help='original image test dir')
 parser.add_argument('--mask_test_dir', type=str, default='../ThreeStageBinarization/DIBCO/Testset/mask/', help='original mask test dir')
 
