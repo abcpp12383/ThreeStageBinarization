@@ -285,7 +285,7 @@ if __name__ == "__main__":
     parser.add_argument('--image_train_dir', type=str, default='./UnetPlusPlus/predicted_image_for_stage3_dibco/train/patch/image/', help='patched stage2 prdiction image train dir')
     parser.add_argument('--mask_train_dir', type=str, default='./UnetPlusPlus/predicted_image_for_stage3_dibco/train/patch/mask/', help='patched stage2 prdiction mask train dir')
     parser.add_argument('--image_test_dir', type=str, default='./UnetPlusPlus/predicted_image_for_stage3_dibco/test/', help='stage2 prdiction image test dir')
-    parser.add_argument('--mask_test_dir', type=str, default='../UnetPlusPlus/ThreeStageBinarization/data/denoise/DIBCO/test/mask/', help='original mask test dir')
+    parser.add_argument('--mask_test_dir', type=str, default=''../ThreeStageBinarization/DIBCO/Testset/mask/', help='original mask test dir')
     
     opt = parser.parse_args()
     unetplusplus_train(opt.epochs, opt.gpu, opt.base_model_name, opt.encoder_weights, opt.generator_lr, opt.discriminator_lr, opt.lambda_bce,
