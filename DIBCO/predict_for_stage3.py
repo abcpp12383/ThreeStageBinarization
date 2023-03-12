@@ -21,7 +21,7 @@ parser.add_argument('--encoder_weights', type=str, default='imagenet', help='non
 parser.add_argument('--generator_lr', type=float, default=1e-4, help='generator learning rate')
 parser.add_argument('--threshold', type=float, default=0.30, help='threshold for bgr mask')
 
-parser.add_argument('--original_dir', type=str, default='../ThreeStageBinarization/DIBCO/Label_data', help='original image dir')
+parser.add_argument('--original_dir', type=str, default='../ThreeStageBinarization/DIBCO/Trainset/image/', help='original image dir')
 
 opt = parser.parse_args()
 
