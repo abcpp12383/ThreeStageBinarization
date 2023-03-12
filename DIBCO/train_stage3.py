@@ -264,7 +264,7 @@ def unetplusplus_train(epochs, gpu, base_model_name, encoder_weights, generator_
                     % (epoch + 1, epochs, total_fmeasure, patch_best_fmeasure, time.time() - epoch_start_time))
         print()
 
-    torch.save(patch_model.state_dict(), weight_path + '/unet_patch_%d_%.4f.pth' % (epoch + 1, total_fmeasure))
+    torch.save(patch_model.state_dict(), weight_path + '/unetplusplus_patch_%d_%.4f.pth' % (epoch + 1, total_fmeasure))
     torch.save(discriminator.state_dict(), weight_path + '/dis_%d_%.4f.pth' % (epoch + 1, total_fmeasure))
 
 
