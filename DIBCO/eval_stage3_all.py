@@ -77,7 +77,7 @@ models.append(model)
 # stage3 unet++
 weight_folder = './UnetPlusPlus/stage3_dibco_' + base_model_name + '_' + str(int(lambda_bce)) + '_' + str(generator_lr) + '/'
 weight_list = os.listdir(weight_folder)
-weight_list = [os.path.join(weight_folder, weight_path) for weight_path in weight_list if 'unet_patch' in weight_path]
+weight_list = [os.path.join(weight_folder, weight_path) for weight_path in weight_list if 'unetplusplus_patch' in weight_path]
 weight_list = sorted(weight_list)
 print('stage3 weight', weight_list)
 
