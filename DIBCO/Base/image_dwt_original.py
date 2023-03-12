@@ -8,7 +8,7 @@ from PIL import Image
 import pywt
 
 def main():
-    image_dir = '../ThreeStageBinarization/image/'
+    image_dir = '../ThreeStageBinarization/DIBCO/Trainset/image/'
     rename_dir = '../ThreeStageBinarization/select_image/original_image_rename/'
     gray_dir = '../ThreeStageBinarization/select_image/original_image_gray/'
     turn_img_to_gray(image_dir,rename_dir,gray_dir)
