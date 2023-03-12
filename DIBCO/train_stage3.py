@@ -6,6 +6,7 @@ import torch
 torch.cuda.current_device()
 import time
 import os
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 import argparse
 import numpy as np
 import matplotlib.pyplot as plt
