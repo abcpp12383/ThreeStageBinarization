@@ -1,7 +1,7 @@
 import math
 import numpy as np
 
-from bwmorph_thin import bwmorph_thin as bwmorph
+from Base.bwmorph_thin import bwmorph_thin as bwmorph
 
 
 def my_xor_infile(u_infile, u0_GT_infile):
