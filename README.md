@@ -17,6 +17,16 @@
 ## Abstract
 The efficient segmentation of foreground text information from the background in degraded color document images is a topic of concern. Due to the imperfect preservation of ancient documents over a long period of time, various types of degradation, including staining, yellowing, and ink seepage, have seriously affected the results of image binarization. In this paper, a three-stage method is proposed for image enhancement and binarization of degraded color document images by using discrete wavelet transform (DWT) and generative adversarial network (GAN). In Stage-1, we use DWT and retain the LL subband images to achieve the image enhancement. In Stage-2, the original input image is split into four (Red, Green, Blue and Gray) single-channel images, each of which trains the independent adversarial networks. The trained adversarial network models are used to extract the color foreground information from the images. In Stage-3, in order to combine global and local features, the output image from Stage-2 and the original input image are used to train the independent adversarial networks for document binarization. The experimental results demonstrate that our proposed method outperforms many classical and state-of-the-art (SOTA) methods on the Document Image Binarization Contest (DIBCO) dataset.
 
+## Citation
+If you find ThreshNet useful in your research, please consider citing:
+
+    @article{lin2022three,
+      title={Three-stage binarization of color document images based on discrete wavelet transform and generative adversarial networks},
+      author={Lin, Yu-Shian and Ju, Rui-Yang and Chen, Chih-Chia and Lin, Ting-Yu and Chiang, Jen-Shiun},
+      journal={arXiv preprint arXiv:2211.16098},
+      year={2022}
+    }
+   
 ## Requirements
 * Linux (Ubuntu)
 * Python >= 3.6 (Pytorch)
