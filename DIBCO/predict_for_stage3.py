@@ -15,10 +15,10 @@ parser.add_argument('--mask_train_dir', type=str, default='../ThreeStageBinariza
 parser.add_argument('--image_test_dir', type=str, default='../ThreeStageBinarization/DIBCO/Testset/image/', help='original image test dir')
 parser.add_argument('--mask_test_dir', type=str, default='../ThreeStageBinarization/DIBCO/Testset/mask/', help='original mask test dir')
 
-parser.add_argument('--base_model_name', type=str, default='efficientnet-b5', help='base model name')
+parser.add_argument('--base_model_name', type=str, default='efficientnet-b6', help='base model name')
 parser.add_argument('--lambda_bce', type=float, default=50.0, help='bce weight')
 parser.add_argument('--encoder_weights', type=str, default='imagenet', help='none or imagenet')
-parser.add_argument('--generator_lr', type=float, default=1e-4, help='generator learning rate')
+parser.add_argument('--generator_lr', type=float, default=2e-4, help='generator learning rate')
 parser.add_argument('--threshold', type=float, default=0.30, help='threshold for bgr mask')
 
 parser.add_argument('--original_dir', type=str, default='../ThreeStageBinarization/DIBCO/Trainset/image/', help='original image dir')
