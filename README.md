@@ -134,3 +134,6 @@ If you find our paper useful in your research, please consider citing:
 * Option 3 is `method2_NA_LLandNorm.py`
 * Option 6 is `method3_LL_LL.py`
 * Option 7 is `method4_LLandNorm_LLandNorm`
+
+## Trained Model
+* You can download [trained weights](https://www.dropbox.com/scl/fi/bpfmek71nw061vyay25e2/Trained_Weights.rar?rlkey=v7u4bozod5pfew9gdzvpc31kr&dl=0) from Dropbox.
