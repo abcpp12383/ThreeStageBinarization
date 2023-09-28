@@ -122,7 +122,9 @@ save_fmeasure = {
         '11':[[] for i in range(4)], 
         '13':[[] for i in range(4)], 
         '14':[[] for i in range(4)], 
-        '16':[[] for i in range(4)]}
+        '16':[[] for i in range(4)],
+        '17':[[] for i in range(4)], 
+        '18':[[] for i in range(4)]}
 }
 
 save_csv = open('./%s/metrics.csv' % save_root_dir, 'w')
