@@ -28,7 +28,7 @@ The efficient segmentation of foreground text information from the background in
 ## Citation
 If you find our paper useful in your research, please consider citing:
 
-Journal version (TCSVT under view):
+**Journal version (TCSVT under view):**
 
     @article{lin2022three,
       title={Three-stage binarization of color document images based on discrete wavelet transform and generative adversarial networks},
