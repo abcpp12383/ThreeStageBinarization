@@ -37,7 +37,7 @@ If you find our paper useful in your research, please consider citing:
       year={2023}
     }
 
-**Journal version (TCSVT under review):**
+**Journal version (under review):**
 
     @article{lin2022three,
       title={Three-stage binarization of color document images based on discrete wavelet transform and generative adversarial networks},
