@@ -67,13 +67,6 @@ If you find our paper useful in your research, please consider citing:
 
 ## Dataset
 You can download the dataset used in this experiment from [Dropbox](https://www.dropbox.com/scl/fi/kt1xgoh06evzlxkopj1mv/Document.rar?rlkey=k8ca1agvom9dx3yr11orvf3um&dl=0).
-* Train: 
-  
-  DIBCO 2009, H-DIBCO 2010, H-DIBCO 2012, PHIBD, SMADI, Bickley Diary Dataset
-  
-* Test: 
-
-  DIBCO 2011, DIBCO 2013, H-DIBCO 2014, H-DIBCO 2016, DIBCO 2017, H-DIBCO2018
 
 ## Usage
 * Patch per datasets (Part of Stage1)
