@@ -12,7 +12,7 @@ def main(argv=None):
     image_dir = '../ThreeStageBinarization/DIBCO/Trainset/image/'
     mask_dir = '../ThreeStageBinarization/DIBCO/Trainset/mask/'
 
-    overlap = 100. / 100. # 30. / 100
+    overlap = 30. / 100.
     imgh = 256
     imgw = 256
     reshape = (imgw, imgh)
