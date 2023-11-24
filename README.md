@@ -61,6 +61,7 @@ If you find our paper useful in your research, please consider citing:
     pip install pytesseract
 ```
 * Download [tesseract data](https://github.com/tesseract-ocr/tessdata_best)
+  
   For Conda users, you can create a new Conda environment using `conda env create -f environment.yml`
 
 ## Dataset
