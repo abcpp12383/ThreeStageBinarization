@@ -62,7 +62,7 @@ If you find our paper useful in your research, please consider citing:
 ```
 * Download [tesseract data](https://github.com/tesseract-ocr/tessdata_best)
   
-  For Conda users, you can create a new Conda environment using `conda env create -f environment.yml`
+  For Conda users, you can create a new Conda environment using `conda env create -f environment.yaml`
 
 ## Dataset
 You can download the dataset used in this experiment from [Dropbox](https://www.dropbox.com/scl/fi/rfqshevaq44g81lxkcjtt/Dataset.rar?rlkey=9z1hlrezkq9t99jv5hekuux71&dl=0).
