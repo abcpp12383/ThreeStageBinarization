@@ -39,12 +39,12 @@ If you find our paper useful in your research, please consider citing:
 
 **Journal version (under review):**
 
-@article{ju2022three,
-  title={Three-stage binarization of color document images based on discrete wavelet transform and generative adversarial networks},
-  author={Ju, Rui-Yang and Lin, Yu-Shian and Jin, Yanlin and Chen, Chih-Chia and Chien, Chun-Tse and Chiang, Jen-Shiun},
-  journal={arXiv preprint arXiv:2211.16098},
-  year={2022}
-}
+  @article{ju2022three,
+    title={Three-stage binarization of color document images based on discrete wavelet transform and generative adversarial networks},
+    author={Ju, Rui-Yang and Lin, Yu-Shian and Jin, Yanlin and Chen, Chih-Chia and Chien, Chun-Tse and Chiang, Jen-Shiun},
+    journal={arXiv preprint arXiv:2211.16098},
+    year={2022}
+  }
    
 ## Requirements
 * Linux (Ubuntu)
