@@ -30,11 +30,13 @@ If you find our paper useful in your research, please consider citing:
 
 **Conference version (accepted by PRICAI 2023)**
 
-    @article{ju2023ccdwt,
-      title={CCDWT-GAN: Generative Adversarial Networks Based on Color ppl Channel Using Discrete Wavelet Transform for Document Image Binarization},
+    @inproceedings{ju2023ccdwt,
+      title={CCDWT-GAN: Generative Adversarial Networks Based on Color Channel Using Discrete Wavelet Transform for Document Image Binarization},
       author={Ju, Rui-Yang and Lin, Yu-Shian and Chiang, Jen-Shiun and Chen, Chih-Chia and Chen, Wei-Han and Chien, Chun-Tse},
-      journal={arXiv preprint arXiv:2305.17420},
-      year={2023}
+      booktitle={Pacific Rim International Conference on Artificial Intelligence},
+      pages={186--198},
+      year={2023},
+      organization={Springer}
     }
 
 **Journal version (under review):**
