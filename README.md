@@ -68,10 +68,10 @@ You can download the dataset used in this experiment from [Dropbox](https://www.
 
 ## Usage
 * Preprocess
-```
-    python3 image_to_224.py
-    python3 image_to_512.py
-```
+  ```
+      python3 image_to_224.py
+      python3 image_to_512.py
+  ```
 
 * Train the model
   * Stage2
