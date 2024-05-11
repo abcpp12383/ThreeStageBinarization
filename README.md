@@ -69,26 +69,26 @@ You can download the dataset used in this experiment from [Dropbox](https://www.
 ## Usage
 * Preprocess
   ```
-    python3 image_to_224.py
-    python3 image_to_512.py
+    python ./Base/image_to_224.py
+    python ./Base/image_to_512.py
   ```
 
 * Train the model
   * Stage2
   ```
-    python3 train_stage2.py
+    python train_stage2.py
   ```
   * Before train left part of Stage3
   ```
-    python3 predict_for_stage3.py
+    python predict_for_stage3.py
   ```
   * left part of Stage3 (need train predict_for_stage3.py first)
   ```
-    python3 train_stage3.py
+    python train_stage3.py
   ```
   * right part of Stage3 (independent training)
   ```
-    python3 train_stage3_resize.py
+    python train_stage3_resize.py
   ```
 
 * Evaluation the model
