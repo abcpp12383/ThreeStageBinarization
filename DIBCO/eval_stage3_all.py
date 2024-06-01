@@ -77,7 +77,7 @@ models.append(model)
 # stage3 unet++
 weight_folder = './UnetPlusPlus/stage3_dibco_' + base_model_name + '_' + str(int(lambda_bce)) + '_' + str(generator_lr) + '/'
 weight_list = os.listdir(weight_folder)
-weight_list = [os.path.join(weight_folder, weight_path) for weight_path in weight_list if 'UnetPlusPlus_patch' in weight_path]
+weight_list = [os.path.join(weight_folder, weight_path) for weight_path in weight_list if 'unetplusplus_patch' in weight_path]
 weight_list = sorted(weight_list)
 print('stage3 weight', weight_list)
 
@@ -90,7 +90,7 @@ model.eval()
 # stage3 global model: input - normal resize
 weight_folder = './UnetPlusPlus/stage3_resize_dibco_' + base_model_name + '_' + str(int(lambda_bce)) + '_' + str(generator_lr) + '/'
 weight_list = os.listdir(weight_folder)
-weight_list = [os.path.join(weight_folder, weight_path) for weight_path in weight_list if 'UnetPlusPlus_global' in weight_path]
+weight_list = [os.path.join(weight_folder, weight_path) for weight_path in weight_list if 'unetplusplus_global' in weight_path]
 weight_list = sorted(weight_list)
 print('stage3 resize weight:', weight_list)
 
