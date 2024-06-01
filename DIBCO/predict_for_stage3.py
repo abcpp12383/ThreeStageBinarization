@@ -37,7 +37,7 @@ encoder_weights = opt.encoder_weights
 weight_folder = './UnetPlusPlus/stage2_dibco_' + base_model_name + '_' + str(int(lambda_bce)) + '_' + str(generator_lr) + '_' + str(threshold)  + '/'
 weight_list = sorted(os.listdir(weight_folder))
 weight_list = [os.path.join(weight_folder, weight_path) for weight_path in weight_list 
-                    if weight_path.endswith('pth') and 'UnetPlusPlus' in weight_path]
+                    if weight_path.endswith('pth') and 'unetplusplus' in weight_path]
 # print(weight_list)
 
 # blue
