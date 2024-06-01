@@ -13,7 +13,7 @@ import cv2
 from random import randrange
 import segmentation_models_pytorch as smp
 from segmentation_models_pytorch.encoders import get_preprocessing_fn
-from method import Dataset_Return_One
+from stage1 import Dataset_Return_One
 from Base.model import Discriminator
 from Base.tool_clean import get_image_patch, check_is_image, image_padding
 
