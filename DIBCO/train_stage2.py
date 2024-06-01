@@ -290,7 +290,7 @@ def unetplusplus_train(epochs, gpu, base_model_name, encoder_weights, generator_
         print()
 
     for channel in range(4):
-        torch.save(models[channel].state_dict(), weight_path + '/UnetPlusPlus_%d_%d_%.4f.pth' % (channel, epoch + 1, total_fmeasure))
+        torch.save(models[channel].state_dict(), weight_path + '/unetplusplus_%d_%d_%.4f.pth' % (channel, epoch + 1, total_fmeasure))
     torch.save(discriminator.state_dict(), weight_path + '/dis_%d_%.4f.pth' % (epoch + 1, total_fmeasure))
 
 
