@@ -1,4 +1,4 @@
-# Three-stage binarization of color document images based on discrete wavelet transform and generative adversarial networks
+# Three-stage Document Image Binarization
 
 > [Three-stage binarization of color document images based on discrete wavelet transform and generative adversarial networks](https://arxiv.org/abs/2211.16098)
 
