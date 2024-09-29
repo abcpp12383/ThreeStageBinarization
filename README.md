@@ -1,4 +1,4 @@
-# Three-stage Document Image Binarization
+# Three-stage Binarization
 
 > [Three-stage binarization of color document images based on discrete wavelet transform and generative adversarial networks](https://arxiv.org/abs/2211.16098)
 
@@ -99,3 +99,9 @@ You can download the dataset used in this experiment from [Dropbox](https://www.
   ```
     python3 eval_stage3_all.py
   ```
+
+## Related Works
+
+<details><summary> <b>Expand</b> </summary>
+
+* https://github.com/RuiyangJu/Efficient_Document_Image_Binarization
