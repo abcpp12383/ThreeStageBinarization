@@ -38,13 +38,15 @@ If you find our paper useful in your research, please consider citing:
       organization={Springer}
     }
 
-**Journal version (under review):**
+**Journal version (accepted by KBS):**
 
-    @article{ju2022three,
+    @article{ju2024three,
       title={Three-stage binarization of color document images based on discrete wavelet transform and generative adversarial networks},
       author={Ju, Rui-Yang and Lin, Yu-Shian and Jin, Yanlin and Chen, Chih-Chia and Chien, Chun-Tse and Chiang, Jen-Shiun},
-      journal={arXiv preprint arXiv:2211.16098},
-      year={2022}
+      journal={Knowledge-Based Systems},
+      pages={112542},
+      year={2024},
+      publisher={Elsevier}
     }
    
 ## Requirements
